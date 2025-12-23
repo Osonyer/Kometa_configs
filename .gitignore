@@ -1,0 +1,23 @@
+# Secrets
+.env
+config.yml
+
+# Logs and cache
+logs/
+*.log
+
+# OS / Editor files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.tmp
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
