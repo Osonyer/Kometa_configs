@@ -12,7 +12,7 @@ collections:
     sync_mode: sync
     summary: Also known as the Dollars Trilogy or the Blood Money Trilogy, is an Italian film series consisting of three Spaghetti Western films directed by Sergio Leone and distributed by United Artists. This series is known for establishing the Spaghetti Western genre and inspiring the creation of many more like films. These three films are consistently listed among the best rated Western films in history.
     url_poster: https://theposterdb.com/api/assets/54596
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Manco_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configss\themes\Manco_theme.mp3
     file_background: config/posters/MWNN_background.jpg
     trakt_list: https://trakt.tv/users/astrolansen/lists/the-man-with-no-name
 
@@ -25,7 +25,7 @@ collections:
     #mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15107
     url_background: https://wallpaper.dog/large/17219705.jpg
     url_poster: https://theposterdb.com/api/assets/26760
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\DCEU_Theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configss\themes\DCEU_Theme.mp3
     
   DC Studios:            # This name is the mapping name
     sort_title: $$MMC_D
@@ -43,7 +43,7 @@ collections:
       - https://mdblist.com/lists/plexmetamanager/external/15107
     url_background: https://wallpaper.dog/large/20544152.jpg
     url_poster: https://theposterdb.com/api/assets/317248
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\DC_studios.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\DC_studios.mp3
   
   Fast Saga:            #This name is the mapping name
     sort_title: $$MMC_Fas
@@ -53,7 +53,7 @@ collections:
     trakt_list: https://trakt.tv/users/vargajoe/lists/fast-and-furious-chronology
     url_background: https://wallpaperaccess.com/full/323448.jpg
     url_poster: https://theposterdb.com/api/assets/171323
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\fast_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\fast_theme.mp3
  
   James Bond:           # This name is the mapping name
     sort_title: $$MMC_Jam
@@ -75,7 +75,7 @@ collections:
     tmdb_movie:
       - 541671 ## From the World of John Wick: Ballerina
     url_poster: https://theposterdb.com/api/assets/366291
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\John_Wick.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\John_Wick.mp3
 
   Jurassic Park:        # This name is the mapping name
     sort_title: $$MMC_Jur
@@ -84,7 +84,7 @@ collections:
     tmdb_collection: https://www.themoviedb.org/collection/328-jurassic-park-collection?language=en-CA
     tmdb_collection_details: 328
     url_poster: https://theposterdb.com/api/assets/232513
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Jurassic_Park.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\Jurassic_Park.mp3
      
   Marvel Studios:        # This name is the mapping name
     sort_title: $$MMC_M
@@ -100,7 +100,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15110
     url_background: https://wallpaper.dog/large/17101332.jpg
     url_poster: https://theposterdb.com/api/assets/81748
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\marvel_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\marvel_theme.mp3
     
   MCU:                   # This name is the mapping name
     sort_title: $$MMC_MC
@@ -113,7 +113,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15109
     url_background: https://wallpapercave.com/wp/wp6060615.jpg
     url_poster: https://theposterdb.com/api/assets/22106
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\MCU_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\MCU_theme.mp3
  
   Planet of the Apes:   # This name is the mapping name
     sort_title: $$MMC_PL
@@ -122,7 +122,7 @@ collections:
     tmdb_collection: 173710
     tmdb_collection_details: 173710
     url_poster: https://theposterdb.com/api/assets/338
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Apes_Theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\Apes_Theme.mp3
 
   Predator:                # This name is the mapping name
     sort_title: $$MMC_PR
@@ -134,7 +134,7 @@ collections:
       - 1376434 ## Predator: Killer of Killers
     url_poster: https://theposterdb.com/api/assets/12919
     url_background: https://images6.alphacoders.com/483/483287.jpg
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\predator_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\predator_theme.mp3
     
   Resident Evil:         # This name is the mapping name
     sort_title: $$MMC_R
@@ -143,7 +143,7 @@ collections:
     tmdb_collection_details: 17255
     tmdb_collection: 17255
     url_poster: https://theposterdb.com/api/assets/65291
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\resident_evil_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\resident_evil_theme.mp3
    
   Resident Evil Animated: # This name is the mapping name
     sort_title: $$MMC_RE
@@ -152,7 +152,7 @@ collections:
     tmdb_collection_details: 133352
     tmdb_collection: 133352
     url_poster: https://theposterdb.com/api/assets/95488
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\resident_evil_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\resident_evil_theme.mp3
     
   Star Wars Saga:       # This name is the mapping name
     sort_title: $$MMC_St
@@ -167,8 +167,8 @@ collections:
       - 184902  ##Darth Maul Returns
     mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15105
     url_poster: https://theposterdb.com/api/assets/211970
-    file_background: C:\Scripts\PLEX Meta Manager\kometa_config\posters\star_wars_background.jpg
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\star_wars_theme.mp3
+    file_background: C:\Scripts\PLEX Meta Manager\Kometa_configs\posters\star_wars_background.jpg
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\star_wars_theme.mp3
    
   The Terminator:       # This name is the mapping name
     sort_title: $$MMC_Te
@@ -177,8 +177,8 @@ collections:
     tmdb_collection: 528
     tmdb_collection_details: 528
     url_poster: https://theposterdb.com/api/assets/13656
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\skynet_theme.mp3
-    file_background: C:\Scripts\PLEX Meta Manager\kometa_config\posters\terminator.jpg 
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\skynet_theme.mp3
+    file_background: C:\Scripts\PLEX Meta Manager\Kometa_configs\posters\terminator.jpg 
    
   Transformers:         # This name is the mapping name
     sort_title: $$MMC_Tr
@@ -193,7 +193,7 @@ collections:
       - 424783 ##BumbleBee Movie
       - 698687 ##Transformers One
     url_poster: https://theposterdb.com/api/assets/13251
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\transformers_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\transformers_theme.mp3
 
   X-Men:                # This name is the mapping name
     sort_title: $$MMC_X
@@ -208,4 +208,4 @@ collections:
       - 340102 # New Mutants
     url_poster: https://theposterdb.com/api/assets/6486
     url_background: https://c4.wallpaperflare.com/wallpaper/784/11/716/x-men-beast-marvel-comics-colossus-cyclops-marvel-comics-wallpaper-preview.jpg
-    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\xmen_theme.mp3
+    file_theme: C:\Scripts\PLEX Meta Manager\Kometa_configs\themes\xmen_theme.mp3
