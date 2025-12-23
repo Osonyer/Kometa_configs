@@ -1,0 +1,22 @@
+templates:
+  Holiday:
+    summary: "Christmas is coming, countdown the nights with a collection of Christmas movies to get you into the festive mood."
+    tmdb_keyword: <<keyword>>
+    delete_not_scheduled: true
+    run_again: false
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+
+collections:
+  Christmas Movies:
+    url_poster: https://theposterdb.com/api/assets/48897
+    summary: Christmas is coming, countdown the nights with a collection of Christmas movies to get you into the festive mood.
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\xmas_theme.mp3
+    schedule: range(11/17-12/31)
+    delete_not_scheduled: true
+    sort_title: '!AB'
+    trakt_list:
+      - https://trakt.tv/users/osonyer/lists/all_christmas
+      - https://trakt.tv/users/madmapper/lists/christmas
+    collection_order: title.asc
