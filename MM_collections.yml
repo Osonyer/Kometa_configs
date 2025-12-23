@@ -1,0 +1,211 @@
+external_templates:
+  pmm: templates
+
+translations:
+  pmm: translations
+  
+collections:
+
+  The Man With No Name:
+    sort_title: $$MMC_N
+    schedule: yearly(01/01)
+    sync_mode: sync
+    summary: Also known as the Dollars Trilogy or the Blood Money Trilogy, is an Italian film series consisting of three Spaghetti Western films directed by Sergio Leone and distributed by United Artists. This series is known for establishing the Spaghetti Western genre and inspiring the creation of many more like films. These three films are consistently listed among the best rated Western films in history.
+    url_poster: https://theposterdb.com/api/assets/54596
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Manco_theme.mp3
+    file_background: config/posters/MWNN_background.jpg
+    trakt_list: https://trakt.tv/users/astrolansen/lists/the-man-with-no-name
+
+  DCEU:                  # This name is the mapping name
+    sort_title: $$MMC_DC
+    schedule: monthly(4)
+    sync_mode: sync
+    summary: The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films and television series produced by DC Studios and distributed by Warner Bros. Pictures.
+    trakt_list: https://trakt.tv/users/asterlea/lists/dceu
+    #mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15107
+    url_background: https://wallpaper.dog/large/17219705.jpg
+    url_poster: https://theposterdb.com/api/assets/26760
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\DCEU_Theme.mp3
+    
+  DC Studios:            # This name is the mapping name
+    sort_title: $$MMC_D
+    schedule: monthly(4)
+    sync_mode: sync
+    summary: DC Comics is one of the largest and oldest American comic book publishers. It produces material featuring numerous well-known superhero characters, including Superman, Batman, Wonder Woman, Green Lantern, The Flash, Aquaman, and Green Arrow. Most of this material takes place in a shared fictional universe, which also features teams such as the Justice League, the Suicide Squad, and the Teen Titans.
+    trakt_list: 
+      - https://trakt.tv/users/malicekodi2/lists/dc
+      - https://trakt.tv/users/buzdekay/lists/dc-53395974-499c-4ae4-a2f4-bc7a1b998415
+      - https://trakt.tv/users/docishoon/lists/dc
+      - https://trakt.tv/users/asterlea/lists/dceu
+      - https://trakt.tv/users/osonyer/lists/dc-movies
+    mdblist_list:
+      - https://mdblist.com/lists/plexmetamanager/external/15405
+      - https://mdblist.com/lists/plexmetamanager/external/15107
+    url_background: https://wallpaper.dog/large/20544152.jpg
+    url_poster: https://theposterdb.com/api/assets/317248
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\DC_studios.mp3
+  
+  Fast Saga:            #This name is the mapping name
+    sort_title: $$MMC_Fas
+    schedule: monthly(6)
+    sync_mode: sync
+    summary: Fast & Furious (also known as The Fast and the Furious) is a media franchise centered on a series of action films that are largely concerned with family, heists, spies, and street racing.
+    trakt_list: https://trakt.tv/users/vargajoe/lists/fast-and-furious-chronology
+    url_background: https://wallpaperaccess.com/full/323448.jpg
+    url_poster: https://theposterdb.com/api/assets/171323
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\fast_theme.mp3
+ 
+  James Bond:           # This name is the mapping name
+    sort_title: $$MMC_Jam
+    schedule: monthly(10)
+    sync_mode: sync
+    summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
+    imdb_list: https://www.imdb.com/list/ls006405458/
+    url_background: https://wallpapercave.com/wp/3Qfh3tQ.jpg
+    url_poster: https://theposterdb.com/api/assets/21070
+    url_theme: https://www.televisiontunes.com/uploads/audio/James%20Bond%20(Original).mp3
+    collection_order: custom
+        
+  John Wick:            # This name is the mapping name
+    sort_title: $$MMC_Joh
+    schedule: monthly(10)
+    sync_mode: sync
+    tmdb_collection: 404609
+    tmdb_collection_details: 404609
+    tmdb_movie:
+      - 541671 ## From the World of John Wick: Ballerina
+    url_poster: https://theposterdb.com/api/assets/366291
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\John_Wick.mp3
+
+  Jurassic Park:        # This name is the mapping name
+    sort_title: $$MMC_Jur
+    schedule: monthly(10)
+    sync_mode: sync
+    tmdb_collection: https://www.themoviedb.org/collection/328-jurassic-park-collection?language=en-CA
+    tmdb_collection_details: 328
+    url_poster: https://theposterdb.com/api/assets/232513
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Jurassic_Park.mp3
+     
+  Marvel Studios:        # This name is the mapping name
+    sort_title: $$MMC_M
+    schedule: monthly(13)
+    sync_mode: sync
+    summary: Collection of movies inspired by Marvel Comics
+    trakt_list: 
+      - https://trakt.tv/users/movistapp/lists/marvel
+      - https://trakt.tv/users/asterlea/lists/marvel
+      - https://trakt.tv/users/drob70/lists/mcu-movies
+      - https://trakt.tv/users/ifigenia1986/lists/mcu-movies
+      - https://trakt.tv/users/osonyer/lists/marvel-comics
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15110
+    url_background: https://wallpaper.dog/large/17101332.jpg
+    url_poster: https://theposterdb.com/api/assets/81748
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\marvel_theme.mp3
+    
+  MCU:                   # This name is the mapping name
+    sort_title: $$MMC_MC
+    schedule: monthly(13)
+    sync_mode: sync
+    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios.
+    trakt_list: 
+      - https://trakt.tv/users/drob70/lists/mcu-movies
+      - https://trakt.tv/users/ifigenia1986/lists/mcu-movies
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15109
+    url_background: https://wallpapercave.com/wp/wp6060615.jpg
+    url_poster: https://theposterdb.com/api/assets/22106
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\MCU_theme.mp3
+ 
+  Planet of the Apes:   # This name is the mapping name
+    sort_title: $$MMC_PL
+    schedule: monthly(16)
+    sync_mode: sync
+    tmdb_collection: 173710
+    tmdb_collection_details: 173710
+    url_poster: https://theposterdb.com/api/assets/338
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\Apes_Theme.mp3
+
+  Predator:                # This name is the mapping name
+    sort_title: $$MMC_PR
+    #schedule: monthly(16)
+    sync_mode: sync
+    tmdb_collection: 399
+    summary: An elite alien hunter stalks humanity across jungles, cities, and centuries, testing strength, skill, and survival. Armed with advanced technology and a ruthless code of honor, the Predator proves that in every era, the hunt is on.
+    tmdb_movie:
+      - 1376434 ## Predator: Killer of Killers
+    url_poster: https://theposterdb.com/api/assets/12919
+    url_background: https://images6.alphacoders.com/483/483287.jpg
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\predator_theme.mp3
+    
+  Resident Evil:         # This name is the mapping name
+    sort_title: $$MMC_R
+    schedule: monthly(18)
+    sync_mode: sync
+    tmdb_collection_details: 17255
+    tmdb_collection: 17255
+    url_poster: https://theposterdb.com/api/assets/65291
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\resident_evil_theme.mp3
+   
+  Resident Evil Animated: # This name is the mapping name
+    sort_title: $$MMC_RE
+    schedule: monthly(18)
+    sync_mode: sync
+    tmdb_collection_details: 133352
+    tmdb_collection: 133352
+    url_poster: https://theposterdb.com/api/assets/95488
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\resident_evil_theme.mp3
+    
+  Star Wars Saga:       # This name is the mapping name
+    sort_title: $$MMC_St
+    schedule: monthly(19)
+    sync_mode: sync
+    summary: An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."
+    tmdb_collection: 10
+    tmdb_movie:
+      - 348350  ##Solo
+      - 330459  ##Rogue One
+      - 12180   ##Clone Wars 
+      - 184902  ##Darth Maul Returns
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/external/15105
+    url_poster: https://theposterdb.com/api/assets/211970
+    file_background: C:\Scripts\PLEX Meta Manager\kometa_config\posters\star_wars_background.jpg
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\star_wars_theme.mp3
+   
+  The Terminator:       # This name is the mapping name
+    sort_title: $$MMC_Te
+    schedule: monthly(20)
+    sync_mode: sync
+    tmdb_collection: 528
+    tmdb_collection_details: 528
+    url_poster: https://theposterdb.com/api/assets/13656
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\skynet_theme.mp3
+    file_background: C:\Scripts\PLEX Meta Manager\kometa_config\posters\terminator.jpg 
+   
+  Transformers:         # This name is the mapping name
+    sort_title: $$MMC_Tr
+    schedule: monthly(20)
+    sync_mode: sync
+    summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
+    tmdb_collection: 
+      - https://www.themoviedb.org/collection/8650-transformers-collection?language=en-CA
+      - https://www.themoviedb.org/collection/939352-transformers-rise-of-the-beasts-collection?language=en-CA      
+    tmdb_movie: 
+      - 1857  ##Transformers: The Movie (1986)     
+      - 424783 ##BumbleBee Movie
+      - 698687 ##Transformers One
+    url_poster: https://theposterdb.com/api/assets/13251
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\transformers_theme.mp3
+
+  X-Men:                # This name is the mapping name
+    sort_title: $$MMC_X
+    schedule: monthly(24)
+    sync_mode: sync
+    summary: A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.
+    tmdb_collection:
+      - https://www.themoviedb.org/collection/748-x-men-collection?language=en-CA
+      - https://www.themoviedb.org/collection/453993-the-wolverine-collection?language=en-CA
+      - https://www.themoviedb.org/collection/448150-deadpool-collection?language=en-CA
+    tmdb_movie:
+      - 340102 # New Mutants
+    url_poster: https://theposterdb.com/api/assets/6486
+    url_background: https://c4.wallpaperflare.com/wallpaper/784/11/716/x-men-beast-marvel-comics-colossus-cyclops-marvel-comics-wallpaper-preview.jpg
+    file_theme: C:\Scripts\PLEX Meta Manager\kometa_config\themes\xmen_theme.mp3
