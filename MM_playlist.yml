@@ -5,10 +5,9 @@ playlists:
     sync_to_users: all 
     sort: custom
     trakt_list: 
-      - https://trakt.tv/users/revswim/lists/christmas-episodes
-      #- https://trakt.tv/users/osonyer/lists/all_christmas
+      - https://trakt.tv/users/revswim/lists/christmas-episodes ## Mega list with 2326 entires - apparently from https://en.wikipedia.org/wiki/List_of_United_States_Christmas_television_episodes
     summary: A Playlist with all the Holiday cheer you need
-    #schedule: range(11/17-12/31)
+    schedule: range(11/17-12/31)
     url_poster: https://i.scdn.co/image/ab67706c0000bebb7d5aa7f81c1db612153cad7a
-    #delete_not_scheduled: true
+    delete_not_scheduled: true
     radarr_add_missing: false
